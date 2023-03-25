@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <!-- https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12640242#overview -->
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="images/simonGame.png" />
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="level-title">Press A Key to Start!</h1>
+    <div class="container">
+      <div class="row">
+        <div type="button" id="green" class="btn green"></div>
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+    <!-- jQuery 3.x snippet: -->
+    <!-- minification works to reduce file size -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
